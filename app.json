@@ -4,11 +4,11 @@
     "slug": "SocialApp2",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./src/assets/icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
+    "newArchEnabled": false,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./src/assets/icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,13 +17,24 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./src/assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.batuhant23.SocialApp2"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./src/assets/icon.png"
+    },
+    "extra": {
+      "GEMINI_API_KEY": "AIzaSyD6xMAGF-VRMFWbVfiPU11-NW8FwCrzHCQ",
+      "FIREBASE_API_KEY": "AIzaSyC3HDYND9_k8mIDqOl0qRcI6KEwbbc6r7M",
+      "FIREBASE_AUTH_DOMAIN": "socialmedia-77ce1.firebaseapp.com",
+      "FIREBASE_PROJECT_ID": "socialmedia-77ce1",
+      "FIREBASE_STORAGE_BUCKET": "socialmedia-77ce1.firebasestorage.app",
+      "FIREBASE_MESSAGING_SENDER_ID": "1062685186132",
+      "FIREBASE_APP_ID": "1:1062685186132:web:9bb64344da461a1f77b5c1",
+      "FIREBASE_MEASUREMENT_ID": "G-2GL4QH8826"
     }
   }
 }
